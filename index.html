@@ -3,13 +3,108 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
+	<!-- Enlace de font awesome para poder utilizar los íconos ahí disponibles-->
+	<script src="https://use.fontawesome.com/736f2ec152.js"></script> 
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
-
+	<!-- Enlace al CSS reutilizable aquí (common.css) -->
+	<link rel="stylesheet" href="css/common.css">
+	<!-- Enlace al CSS del proyecto aquí -->
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
+	<!-- barra de navegación, con una parte a la izq y otra a la derecha -->
+	<header class="navbar">
+		<div class="left">
+			<h2>START BOOTSTRAP</h2>
+		</div>
+		<div class="right">
+			<ul>
+				<li><a href="">PORTFOLIO</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">CONTACT</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- Sección Portada -->
+	<section id="portada">
+		<div class="row">
+			<div class="col-12 img-portada">
+				<img src="assets/images/profile.png" alt="">
+				<h1>START BOOTSTRAP</h1>
+				<div class="left-line"></div>
+				<p><i class="fa fa-star white" aria-hidden="true"></i></p>
+				<div class="right-line"></div>
+				<h3>Web Developer - Graphic Artist - Use Experience Designer</h3>
+			</div>
+		</div>
+	</section>
+	<!-- Sección Portafolio -->
+	<section id="portfolio">
+		<div class="container">
+			<h2 class="portfolio-text">PORTFOLIO</h2>
+			<div class="left-line-ptf"></div>
+			<p><i class="fa fa-star black" aria-hidden="true"></i></p>
+			<div class="right-line-ptf"></div>
 
-	<!-- Enlaza aquí tu archivo JS -->
-	
-</body>
-</html>
+			<!-- sección de fotos, galeria de fotos con dos filas (rows) y 3 columnas
+			PRIMERA FILA DE FOTOS-->
+
+			<div class="row">
+				<div class="col-4 picture">
+					<img src="assets/images/portfolio/cabin.png" alt="cabin" class="img-responsive">
+				</div>
+				<div class="col-4 picture">
+					<img src="assets/images/portfolio/cake.png" alt="cake" class="img-responsive">
+				</div>
+				<div class="col-4 picture">
+					<img src="assets/images/portfolio/circus.png" alt="circus" class="img-responsive">
+				</div>
+			</div>
+			<!-- SEGUNDA FILA DE FOTOS-->
+			<div class="row">
+				<div class="col-4 picture">
+					<img src="assets/images/portfolio/game.png" alt="game" class="img-responsive">
+				</div>
+				<div class="col-4 picture">
+					<img src="assets/images/portfolio/safe.png" alt="safe" class="img-responsive">
+				</div>
+
+				<div class="col-4 picture">
+					<img src="assets/images/portfolio/submarine.png" alt="submarine" class="img-responsive">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Sección About -->
+	<section id="about">
+		<div class="row">
+			<div class="col-12 about">
+				<h2 class="about-txt">ABOUT</h2>
+				<div class="left-line"></div>
+				<p>
+					<i class="fa fa-star star-white" aria-hidden="true"></i>
+				</p>
+				<div class="right-line">
+				</div>
+
+				<div class="row">
+					<div class="col-3"></div>
+					<p class="col-3 about-paragraph">
+						Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheet for easy customization.
+					</p>
+					<div class="col-3"></div>
+					<p class="col-3 about-paragraph">
+					</p>
+					<div class="col-3"></div>
+				</div>
+
+<button type="button" class="button"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</button>
+
+				<!-- Enlaza aquí tu archivo JS -->
+				<script type="text/javascript" src="js/app.js"></script>
+			</body>
+			</html>
